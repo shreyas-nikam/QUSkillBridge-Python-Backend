@@ -1,0 +1,849 @@
+{
+    "NIST": {
+        "APP_CODE": "NIST",
+        "APP_NAME": "NIST AI - Adversarial Machine Learning",
+        "APP_IMAGE": "qu-nist/course-image/course-image.jpg",
+        "HOME_PAGE_INTRODUCTION": "### Introduction  \n- The spectrum of effective attacks against ML is wide, rapidly evolving, and covers all phases of the ML life cycle - from design and implementation to training, testing, and finally, to deployment in the real world.  \n- This demo is intended to be a step toward developing a taxonomy and terminology of adversarial machine learning (AML), which in turn may aid in securing applications of artificial intelligence (AI) against adversarial manipulations of AI systems.  \n- We adopt the notions of security, resilience, and robustness of ML systems from the NIST AI Risk Management Framework  \n#### Key Takeaways: \n[QuIQ Report](https://qucoursify.s3.amazonaws.com/qu-nist/test/key-takeaways.html)  \n#### Reference PDF:  \n[NIST AI Publication](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2023.pdf)",
+        "SHORT_DESCRIPTION": "A step toward developing a taxonomy and terminology of adversarial machine learning (AML), which in turn may aid in securing applications of artificial intelligence (AI) against adversarial manipulations of AI systems.",
+        "DOCUMENT_LINK": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2023.pdf",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-nist/test",
+        "VIDEOS_PATH": "./data/NIST/videos",
+        "SLIDES_PATH": "./data/NIST/slides",
+        "TRANSCRIPTS_PATH": "./data/NIST/transcripts",
+        "LAST_UPDATED_JSON": "data/NIST/last_updated.json",
+        "LOCAL_PATH": "NIST",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [
+            "What are White-box evasion attacks in Adversarial Machine Learning?",
+            "Tell me more about Availability Poisoning and give me some examples.",
+            "Give me some strategies to mitigate evasion attacks in AML."
+        ],
+        "RETRIEVER_DB_PATH": "./data/NIST/retriever/",
+        "HYBRID_DB_PATH": "./data/NIST/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-nist/test/questions.json",
+        "CERTIFICATE_PATH": "qu-nist/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-nist/test/slides/Introduction.pdf",
+            "qu-nist/test/slides/Predictive AI Taxonomy.pdf",
+            "qu-nist/test/slides/Generative AI Taxonomy.pdf",
+            "qu-nist/test/slides/Discussion and Remaining Challenges.pdf"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "1. Introduction",
+            "2. Predictive AI Taxonomy",
+            "3. Generative AI Taxonomy",
+            "4. Discussion and Remaining Challenges"
+        ],
+        "COURSE_NAMES_SLIDES": [
+            "1. Introduction",
+            "2. Predictive AI Taxonomy",
+            "3. Generative AI Taxonomy",
+            "4. Discussion and Remaining Challenges"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037260?h=5f33d3ec34&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='Introduction'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037656?h=66a3f4d2f8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='Predictive AI Taxonomy'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037045?h=e201b5a7b0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='Generative AI Taxonomy'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036999?h=9f2c4e6597&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='Discussion and Remaining Challenges'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/NIST/transcripts/transcript_1.txt",
+            "./data/NIST/transcripts/transcript_2.txt",
+            "./data/NIST/transcripts/transcript_3.txt",
+            "./data/NIST/transcripts/transcript_4.txt"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link"
+    },
+    "AIRMF": {
+        "APP_CODE": "AIRMF",
+        "APP_NAME": "NIST AI and Risk Management Framework",
+        "APP_IMAGE": "qu-airmf/course-image/AIRMF.jpg",
+        "HOME_PAGE_INTRODUCTION": " ### Introduction \n- In collaboration with the private and public sectors, NIST has created a companion AI RMF playbook  for voluntary use which suggests ways to navigate and use the [AI Risk Management Framework (AI RMF)](https://www.nist.gov/itl/ai-risk-management-framework) to incorporate trustworthiness considerations in the design, development, deployment, and use of AI systems.  \n- The Playbook is based on AI RMF 1.0 (released on January 26, 2023). It includes suggested actions, references, and related guidance to achieve the outcomes for the four functions in the AI RMF: Govern, Map, Measure, and Manage. Playbook suggestions are developed based on best practices and research insights.  \n- The AI RMF and the Playbook are intended for voluntary use. Organizations may utilize this information by borrowing as many \u00e2\u20ac\u201c or as few \u00e2\u20ac\u201c suggestions as apply to their industry use case or interests.  \n#### Key Takeaways: \n[QuIQ Report](https://qucoursify.s3.amazonaws.com/qu-airmf/test/key-takeaways.html)  \n#### Reference PDF:  \n[AI RMF Playbook](https://airc.nist.gov/docs/AI_RMF_Playbook.pdf)",
+        "SHORT_DESCRIPTION": "Companion AI RMF playbook for voluntary use which suggests ways to navigate and use the AI Risk Management Framework.",
+        "DOCUMENT_LINK": "https://airc.nist.gov/docs/AI_RMF_Playbook.pdf",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-airmf/test",
+        "VIDEOS_PATH": "./data/AIRMF/videos",
+        "SLIDES_PATH": "./data/AIRMF/slides",
+        "TRANSCRIPTS_PATH": "./data/AIRMF/transcripts",
+        "LAST_UPDATED_JSON": "data/AIRMF/last_updated.json",
+        "LOCAL_PATH": "AIRMF",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [
+            "What are some suggested actions for designing organizational AI risk management policies?",
+            "What do impact assessments help in understanding?",
+            "What questions can organizations document related to AI risk tolerance decisions?"
+        ],
+        "RETRIEVER_DB_PATH": "./data/AIRMF/retriever/",
+        "HYBRID_DB_PATH": "./data/AIRMF/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-airmf/test/questions.json",
+        "CERTIFICATE_PATH": "qu-airmf/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-airmf/test/slides/GOVERN 1.pdf",
+            "qu-airmf/test/slides/GOVERN 2.pdf",
+            "qu-airmf/test/slides/GOVERN 3.pdf",
+            "qu-airmf/test/slides/GOVERN 4.pdf",
+            "qu-airmf/test/slides/GOVERN 5.pdf",
+            "qu-airmf/test/slides/GOVERN 6.pdf",
+            "qu-airmf/test/slides/MAP 1.pdf",
+            "qu-airmf/test/slides/MAP 2.pdf",
+            "qu-airmf/test/slides/MAP 3.pdf",
+            "qu-airmf/test/slides/MAP 4.pdf",
+            "qu-airmf/test/slides/MAP 5.pdf",
+            "qu-airmf/test/slides/MEASURE 1.pdf",
+            "qu-airmf/test/slides/MEASURE 2.pdf",
+            "qu-airmf/test/slides/MEASURE 3.pdf",
+            "qu-airmf/test/slides/MEASURE 4.pdf",
+            "qu-airmf/test/slides/MANAGE 1.pdf",
+            "qu-airmf/test/slides/MANAGE 2.pdf",
+            "qu-airmf/test/slides/MANAGE 3.pdf",
+            "qu-airmf/test/slides/MANAGE 4.pdf"
+        ],
+        "COURSE_NAMES_SLIDES": [
+            "1. GOVERN 1",
+            "2. GOVERN 2",
+            "3. GOVERN 3",
+            "4. GOVERN 4",
+            "5. GOVERN 5",
+            "6. GOVERN 6",
+            "7. MAP 1",
+            "8. MAP 2",
+            "9. MAP 3",
+            "10. MAP 4",
+            "11. MAP 5",
+            "12. MEASURE 1",
+            "13. MEASURE 2",
+            "14. MEASURE 3",
+            "15. MEASURE 4",
+            "16. MANAGE 1",
+            "17. MANAGE 2",
+            "18. MANAGE 3",
+            "19. MANAGE 4"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "1. GOVERN 1",
+            "2. GOVERN 2",
+            "3. GOVERN 3",
+            "4. GOVERN 4",
+            "5. GOVERN 5",
+            "6. GOVERN 6",
+            "7. MAP 1",
+            "8. MAP 2",
+            "9. MAP 3",
+            "10. MAP 4",
+            "11. MAP 5",
+            "12. MEASURE 1",
+            "13. MEASURE 2",
+            "14. MEASURE 3",
+            "15. MEASURE 4",
+            "16. MANAGE 1",
+            "17. MANAGE 2",
+            "18. MANAGE 3",
+            "19. MANAGE 4"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037117?h=ea83287f4b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='GOVERN 1'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037163?h=e4cabddb98&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='GOVERN 2'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037183?h=ab768ec578&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='GOVERN 3'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037206?h=d1bfc02238&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='GOVERN 4'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037229?h=4eed642875&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='GOVERN 5'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037244?h=87eb2cc610&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='GOVERN 6'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037349?h=b8fc6a9ca8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MAP 1'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037395?h=e700c53671&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MAP 2'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037445?h=4821cc5c68&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MAP 3'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037479?h=6267450fbc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MAP 4'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037502?h=47a8b27b60&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MAP 5'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037522?h=4a93fa7ad5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MEASURE 1'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037535?h=8b4cce3a41&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MEASURE 2'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037608?h=0856149228&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MEASURE 3'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037631?h=c241259e80&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MEASURE 4'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037271?h=3996887c22&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MANAGE 1'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037293?h=d2b4a17240&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MANAGE 2'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037321?h=9c4b524cb7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MANAGE 3'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930037338?h=48d9cfe5c8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='MANAGE 4'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/AIRMF/transcripts/transcript_GOVERN_1.txt",
+            "./data/AIRMF/transcripts/transcript_GOVERN_2.txt",
+            "./data/AIRMF/transcripts/transcript_GOVERN_3.txt",
+            "./data/AIRMF/transcripts/transcript_GOVERN_4.txt",
+            "./data/AIRMF/transcripts/transcript_GOVERN_5.txt",
+            "./data/AIRMF/transcripts/transcript_GOVERN_6.txt",
+            "./data/AIRMF/transcripts/transcript_MAP_1.txt",
+            "./data/AIRMF/transcripts/transcript_MAP_2.txt",
+            "./data/AIRMF/transcripts/transcript_MAP_3.txt",
+            "./data/AIRMF/transcripts/transcript_MAP_4.txt",
+            "./data/AIRMF/transcripts/transcript_MAP_5.txt",
+            "./data/AIRMF/transcripts/transcript_MEASURE_1.txt",
+            "./data/AIRMF/transcripts/transcript_MEASURE_2.txt",
+            "./data/AIRMF/transcripts/transcript_MEASURE_3.txt",
+            "./data/AIRMF/transcripts/transcript_MEASURE_4.txt",
+            "./data/AIRMF/transcripts/transcript_MANAGE_1.txt",
+            "./data/AIRMF/transcripts/transcript_MANAGE_2.txt",
+            "./data/AIRMF/transcripts/transcript_MANAGE_3.txt",
+            "./data/AIRMF/transcripts/transcript_MANAGE_4.txt"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link"
+    },
+    "AIBDI": {
+        "APP_CODE": "AIBDI",
+        "APP_NAME": "AI and Big Data Applications in Investments",
+        "HOME_PAGE_INTRODUCTION": "### Introduction  \nThe course will delve into the transformative impact of AI and big data on the investment landscape, covering key concepts, applications, and practical strategies for implementing AI-driven solutions in investment management.   \n##### Course Overview:  \n- Introduction to AI and Big Data in Finance: Overview of foundational AI and machine learning concepts and their specific applications in financial investment strategies.  \n- Machine Learning and Data Science Applications: Deep dive into how these technologies are reshaping asset management, risk assessment, and trading strategies.  \n- Natural Language Processing (NLP) Applications: Explore how NLP is used to glean insights from financial documents and data, enhancing decision-making processes.  \n- Trading Algorithms and Models: Examination of how AI models are used to optimize trading strategies and execution.  \n- Regulatory and Ethical Considerations: Discuss the ethical implications and regulatory challenges associated with deploying AI and big data in investments.  \n#### Key Takeaways: \n[QuIQ Report](https://qucoursify.s3.amazonaws.com/qu-aibdi/test/key-takeaways.html)  \n#### Reference PDF:  \n[AI and Big Data in Investments](https://rpc.cfainstitute.org/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf)",
+        "SHORT_DESCRIPTION": "Delve into the transformative impact of AI and big data on the investment landscape, covering key concepts, applications, and practical strategies for implementing AI-driven solutions in investment management.",
+        "APP_IMAGE": "qu-aibdi/course-image/course-image.jpg",
+        "DOCUMENT_LINK": "https://rpc.cfainstitute.org/-/media/documents/article/rf-brief/ai-and-big-data-in-investments.pdf",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-aibdi/test",
+        "VIDEOS_PATH": "./data/AIBDI/videos",
+        "SLIDES_PATH": "./data/AIBDI/slides",
+        "TRANSCRIPTS_PATH": "./data/AIBDI/transcripts",
+        "LAST_UPDATED_JSON": "data/AIBDI/last_updated.json",
+        "LOCAL_PATH": "AIBDI",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [
+            "What are some of the applications of NLU in Investments?",
+            "Tell me more about Knowledge Graphs.",
+            "What is Intelligent Customer Service in Insurance?"
+        ],
+        "RETRIEVER_DB_PATH": "./data/AIBDI/retriever/",
+        "HYBRID_DB_PATH": "./data/AIBDI/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-aibdi/test/questions.json",
+        "CERTIFICATE_PATH": "qu-aibdi/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-aibdi/test/slides/1 On Machine Learning Applications In Investments.pdf",
+            "qu-aibdi/test/slides/2 Alternative Data and AI in Investment Research.pdf",
+            "qu-aibdi/test/slides/3 Data Science for Active and Long-Term Fundamental Investing.pdf",
+            "qu-aibdi/test/slides/4 Unlocking Insights and Opportunities.pdf",
+            "qu-aibdi/test/slides/5 Advances in Natural Language Understanding for Investment Management.pdf",
+            "qu-aibdi/test/slides/6 Extracting Text-Based ESG Insights - A Hands-on Guide.pdf",
+            "qu-aibdi/test/slides/7 Machine Learning and Big Data Trade Execution Support.pdf",
+            "qu-aibdi/test/slides/8 Machine Learning for Microstructure Data-Driven Execution Algorithms.pdf",
+            "qu-aibdi/test/slides/9 Intelligent Customer Service in Finance.pdf",
+            "qu-aibdi/test/slides/10 Accelerated AI and Use Cases in Investment Management.pdf",
+            "qu-aibdi/test/slides/11 Symbolic AI - A Case Study.pdf"
+        ],
+        "COURSE_NAMES_SLIDES": [
+            "1. On Machine Learning Applications In Investments",
+            "2. Alternative Data and AI in Investment Research",
+            "3. Data Science for Active and Long-Term Fundamental Investing",
+            "4. Unlocking Insights and Opportunities",
+            "5. Advances in Natural Language Understanding for Investment Management",
+            "6. Extracting Text-Based ESG Insights - A Hands-on Guide",
+            "7. Machine Learning and Big Data Trade Execution Support",
+            "8. Machine Learning for Microstructure Data-Driven Execution Algorithms",
+            "9. Intelligent Customer Service in Finance",
+            "10. Accelerated AI and Use Cases in Investment Management",
+            "11. Symbolic AI - A Case Study"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "1. On Machine Learning Applications In Investments",
+            "2. Alternative Data and AI in Investment Research",
+            "3. Data Science for Active and Long-Term Fundamental Investing",
+            "4. Unlocking Insights and Opportunities",
+            "5. Advances in Natural Language Understanding for Investment Management",
+            "6. Extracting Text-Based ESG Insights - A Hands-on Guide",
+            "7. Machine Learning and Big Data Trade Execution Support",
+            "8. Machine Learning for Microstructure Data-Driven Execution Algorithms",
+            "9. Intelligent Customer Service in Finance",
+            "10. Accelerated AI and Use Cases in Investment Management",
+            "11. Symbolic AI - A Case Study"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036343?h=eafe6c3667&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='1 On Machine Learning Applications In Investments'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036402?h=e1569cd689&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='2 Alternative Data and AI in Investment Research'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036471?h=178b093d1b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='3 Data Science for Active and Long-Term Fundamental Investing'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036576?h=499e924278&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='4 Unlocking Insights and Opportunities'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036646?h=f44d5d41ad&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='5 Advances in Natural Language Understanding for Investment Management'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036739?h=623d49f05f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='6 Extracting Text-Based ESG Insights - A Hands-on Guide'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036810?h=f0eaa2f2f0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='7 Machine Learning and Big Data Trade Execution Support'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036829?h=917b7a8037&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='8 Machine Learning for Microstructure Data-Driven Execution Algorithms'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036849?h=f832236f67&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='9 Intelligent Customer Service in Finance'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036925?h=afb988db7d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='10 Accelerated AI and Use Cases in Investment Management'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036950?h=d0dc1dfdd5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='11 Symbolic AI - A Case Study'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/AIBDI/transcripts/1 On Machine Learning Applications In Investments.txt",
+            "./data/AIBDI/transcripts/2 Alternative Data and AI in Investment Research.txt",
+            "./data/AIBDI/transcripts/3 Data Science for Active and Long-Term Fundamental Investing.txt",
+            "./data/AIBDI/transcripts/4 Unlocking Insights and Opportunities.txt",
+            "./data/AIBDI/transcripts/5 Advances in Natural Language Understanding for Investment Management.txt",
+            "./data/AIBDI/transcripts/6 Extracting Text-Based ESG Insights - A Hands-on Guide.txt",
+            "./data/AIBDI/transcripts/7 Machine Learning and Big Data Trade Execution Support.txt",
+            "./data/AIBDI/transcripts/8 Machine Learning for Microstructure Data-Driven Execution Algorithms.txt",
+            "./data/AIBDI/transcripts/9 Intelligent Customer Service in Finance.txt",
+            "./data/AIBDI/transcripts/10 Accelerated AI and Use Cases in Investment Management.txt",
+            "./data/AIBDI/transcripts/11 Symbolic AI - A Case Study.txt"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link"
+    },
+    "AEDT": {
+        "APP_CODE": "AEDT",
+        "APP_NAME": "New York 144 Law on Automated Employment Decision Tools (AEDT)",
+        "APP_IMAGE": "qu-aedt/course-image/course-image.jpg",
+        "HOME_PAGE_INTRODUCTION": "### Introduction  \n- The Department of Consumer and Worker Protection (DCWP) is implementing rules for automated employment decision tools (AEDTs) based on [Local Law 144 of 2021](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page).  \n- AEDTs cannot be used by employers or employment agencies without undergoing a bias audit and making the audit results public.  \n- The bias audit must analyze selection rates for different demographic groups and compare them to detect potential biases.  \n- Rules clarify terms, audit requirements, publication standards for audit results, and notice obligations for employees and job candidates.  \n- Overall, the rules aim to ensure compliance with the law and promote fairness in employment practices involving AEDTs.  \n- It is a process conducted by employers or employment agencies to assess the fairness of an automated employment decision tool (AEDT) in selecting candidates for employment or promotion.  \n- It ensures that AEDTs don't unfairly discriminate based on sex, race/ethnicity, or intersectional categories by analyzing selection or scoring patterns and comparing them across demographic groups.  \n#### Key Takeaways: \n[QuIQ Report](https://qucoursify.s3.amazonaws.com/qu-aedt/test/key-takeaways.html)  \n#### Reference PDF:  \n[Local Law 144 of 2021](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page)",
+        "SHORT_DESCRIPTION": "DCWP is implementing rules for automated employment decision tools (AEDTs) based on Local Law 144 of 2021.",
+        "DOCUMENT_LINK": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-aedt/test",
+        "VIDEOS_PATH": "./data/AEDT/videos",
+        "SLIDES_PATH": "./data/AEDT/slides",
+        "TRANSCRIPTS_PATH": "./data/AEDT/transcripts",
+        "LAST_UPDATED_JSON": "data/AEDT/last_updated.json",
+        "LOCAL_PATH": "AEDT",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [
+            "What is required by Local Law 144 of 2021 for automated employment decision tools?",
+            "Tell me more about Data Requirements for the Bias Audit.",
+            "What is selection rate in context of AEDT? Give me an example."
+        ],
+        "RETRIEVER_DB_PATH": "./data/AEDT/retriever/",
+        "HYBRID_DB_PATH": "./data/AEDT/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-aedt/test/questions.json",
+        "CERTIFICATE_PATH": "qu-aedt/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-aedt/test/slides/1 Introduction.pdf",
+            "qu-aedt/test/slides/2 Definitions.pdf",
+            "qu-aedt/test/slides/3 Bias Audit.pdf",
+            "qu-aedt/test/slides/4 Summary.pdf"
+        ],
+        "COURSE_NAMES_SLIDES": [
+            "1. Introduction",
+            "2. Definitions",
+            "3. Bias Audit",
+            "4. Summary"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "1. Introduction",
+            "2. Definitions",
+            "3. Bias Audit",
+            "4. Summary"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036330?h=f5bf250537&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='1 Introduction'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036417?h=4421e9927a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='2 Definitions'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036455?h=8b9d25145d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='3 Bias Audit'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/930036540?h=b33426ff8b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='4 Summary'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/AEDT/transcripts/transcript_1 Introduction.txt",
+            "./data/AEDT/transcripts/transcript_2 Definitions.txt",
+            "./data/AEDT/transcripts/transcript_3 Bias Audit.txt",
+            "./data/AEDT/transcripts/transcript_4 Summary.txt"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link"
+    },
+    "CONSU": {
+        "APP_CODE": "CONSU",
+        "APP_NAME": "QU - Contract Extractor",
+        "APP_IMAGE": "qu-consu/course-image/CONSU.jpg",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-consu/test",
+        "LOCAL_PATH": "CONSU",
+        "HOME_PAGE_INTRODUCTION": "### Introduction  \n Welcome to the Contract Chatbot App! This innovative tool revolutionizes the way you handle contracts by seamlessly extracting information and providing a chatbot interface for effortless interaction. Here's how it works:\n\n1. **Upload**: Begin by uploading your contract document on the Contract Summarizer page.\n2. **Extraction**: Our advanced algorithms swiftly parse through the document to extract essential information.\n3. **Initiate Chatbot**: Once extraction is complete, seamlessly transition to the chatbot interface.\n4. **Interact**: Engage with the chatbot to explore, discuss, and clarify any details within the contract.",
+        "SHORT_DESCRIPTION": "Revolutionizes the way you handle contracts by seamlessly extracting information and providing a chatbot interface for effortless interaction.",
+        "DOCUMENT_LINK": "Contract Summarizer Section of the Demo",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [
+            "What is the role of the Contractor in this agreement?",
+            "What are the terms and conditions for the contract?",
+            "Give details about the parties in the contract ?"
+        ],
+        "CONTENT_SAMPLE_TXT": "./data/CONSU/sample.txt",
+        "RETRIEVER_DB_PATH": "./data/CONSU/retriever/",
+        "HYBRID_DB_PATH": "./data/CONSU/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5
+    },
+    "AGIRM": {
+        "APP_CODE": "AGIRM",
+        "APP_NAME": "White House Federal Agency Use of Artificial Intelligence Executive Order Awareness Course",
+        "APP_IMAGE": "qu-agirm/course-image/Course Image.jpg",
+        "HOME_PAGE_INTRODUCTION": "### Introduction  \nThe course on AI governance and innovation in the Federal Government will cover the following key points:  \n- AI Governance in the Federal Sector  \n- Advancing Responsible AI Innovation  \n- AI Risk Management  \n- Federal AI Procurement and Risk Management Recommendations  \n- Legislative and Executive Frameworks for AI  \n#### Key Takeaways: \n[QuIQ Report](https://qucoursify.s3.amazonaws.com/qu-agirm/test/key-takeaways.html)  \n#### Reference PDF:  \n[White House Memorandum](https://www.whitehouse.gov/wp-content/uploads/2024/03/M-24-10-Advancing-Governance-Innovation-and-Risk-Management-for-Agency-Use-of-Artificial-Intelligence.pdf)",
+        "SHORT_DESCRIPTION": "Covers AI governance and innovation in the Federal Government.",
+        "DOCUMENT_LINK": "https://www.whitehouse.gov/wp-content/uploads/2024/03/M-24-10-Advancing-Governance-Innovation-and-Risk-Management-for-Agency-Use-of-Artificial-Intelligence.pdf",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-agirm/test",
+        "VIDEOS_PATH": "./data/AGIRM/videos",
+        "SLIDES_PATH": "./data/AGIRM/slides",
+        "TRANSCRIPTS_PATH": "./data/AGIRM/transcripts",
+        "LAST_UPDATED_JSON": "data/AGIRM/last_updated.json",
+        "LOCAL_PATH": "AGIRM",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [
+            "Which of the roles is expected to manage AI risk and advance innovation in the agencies?",
+            "Does the memorandum apply to all the agencies?",
+            "What is the definition of 'agency' according to this memorandum?"
+        ],
+        "RETRIEVER_DB_PATH": "./data/AGIRM/retriever/",
+        "HYBRID_DB_PATH": "./data/AGIRM/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-agirm/test/questions.json",
+        "CERTIFICATE_PATH": "qu-agirm/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-agirm/test/slides/1 Overview.pdf",
+            "qu-agirm/test/slides/2 Scope.pdf",
+            "qu-agirm/test/slides/3 Strengthening Artificial Intelligence Governance.pdf",
+            "qu-agirm/test/slides/4 Advancing Responsible Artificial Intelligence Innovation.pdf",
+            "qu-agirm/test/slides/5 Managing Risks from the use of artificial intelligence.pdf",
+            "qu-agirm/test/slides/6 Definitions.pdf",
+            "qu-agirm/test/slides/Appendix.pdf",
+            "qu-agirm/test/slides/Draft.pdf"
+        ],
+        "COURSE_NAMES_SLIDES": [
+            "1. Overview",
+            "2. Scope",
+            "3. Strengthening Artificial Intelligence Governance",
+            "4. Advancing Responsible Artificial Intelligence Innovation",
+            "5. Managing Risks from the use of artificial intelligence",
+            "6. Definitions",
+            "Appendix",
+            "Draft"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "1. Overview",
+            "2. Scope",
+            "3. Strengthening Artificial Intelligence Governance",
+            "4. Advancing Responsible Artificial Intelligence Innovation",
+            "5. Managing Risks from the use of artificial intelligence"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/932597719?h=ba54b55819&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='1 Overview'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/932597742?h=bf2f5fd58b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='2 Scope'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/932597759?h=e04593cdbe&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='3 Strengthening Artificial Intelligence Governance'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/932597794?h=260ff8494a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='4 Advancing Responsible Artificial Intelligence Innovation'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.24% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/932615478?h=eee3a62dbe&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='5 Managing Risks from the use of artificial intelligence'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/AGIRM/transcripts/1 Overview.txt",
+            "./data/AGIRM/transcripts/2 Scope.txt",
+            "./data/AGIRM/transcripts/3 Strengthening Artificial Intelligence Governance.txt",
+            "./data/AGIRM/transcripts/4 Advancing Responsible Artificial Intelligence Innovation.txt",
+            "./data/AGIRM/transcripts/5 Managing Risks from the use of artificial intelligence.txt"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link"
+    },
+    "SCFACO": {
+        "APP_CODE": "SCFACO",
+        "APP_NAME": "Quantitative methods in Finance",
+        "APP_IMAGE": "qu-scfaco/course-image/SCFACO.jpg",
+        "HOME_PAGE_INTRODUCTION": "- In this course, we will review   \n    - Hypothesis Testing and Regression Analysis   \n    - Introduction to Big Data Techniques   \n    - Understanding Rates and Returns   \n- After completion of the module, you can use the QUBot for additional qustions.  \n- Complete the Assessment to get certified for the course.  \n- You can use the feedback page to reach out to us with any additional feedback.",
+        "SHORT_DESCRIPTION": "In this course, we will review Hypothesis Testing and Regression Analysis, Introduction to Big Data Techniques, and Understanding Rates and Returns.",
+        "DOCUMENT_LINK": "www.quantuniversity.com",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-scfaco/test",
+        "VIDEOS_PATH": "./data/SCFACO/videos",
+        "SLIDES_PATH": "./data/SCFACO/slides",
+        "TRANSCRIPTS_PATH": "./data/SCFACO/transcripts",
+        "LAST_UPDATED_JSON": "./data/SCFACO/last_updated.json",
+        "LOCAL_PATH": "SCFACO",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [],
+        "RETRIEVER_DB_PATH": "./data/SCFACO/retriever",
+        "HYBRID_DB_PATH": "./data/SCFACO/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-scfaco/test/questions.json",
+        "CERTIFICATE_PATH": "qu-scfaco/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-scfaco/test/slides/Hypothesis Testing and Regression Analysis.pdf",
+            "qu-scfaco/test/slides/Introduction to Big Data Techniques.pdf",
+            "qu-scfaco/test/slides/Understanding Rates and Returns.pdf"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/964672858?h=2fa28f3372&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='Hypothesis Testing and Regression Analysis'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/964672785?h=6f18ad9553&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='Introduction to Big Data Techniques'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/964672696?h=c40f2cfb25&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='Understanding Rates and Returns'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/SCFACO/transcripts/transcript_Hypothesis Testing and Regression Analysis.md",
+            "./data/SCFACO/transcripts/transcript_Introduction to Big Data Techniques.md",
+            "./data/SCFACO/transcripts/transcript_Understanding Rates and Returns.md"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
+        "COURSE_NAMES_SLIDES": [
+            "Hypothesis Testing and Regression Analysis",
+            "Introduction to Big Data Techniques",
+            "Understanding Rates and Returns"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "Hypothesis Testing and Regression Analysis",
+            "Introduction to Big Data Techniques",
+            "Understanding Rates and Returns"
+        ]
+    },
+    "SGMRM": {
+        "APP_CODE": "SGMRM",
+        "APP_NAME": "SR11-7 Supervisory Guide on Model Risk Management Course",
+        "APP_IMAGE": "qu-sgmrm/course-images/SR11-7 SGMRM.png",
+        "HOME_PAGE_INTRODUCTION": "### Introduction  \nThe course provides comprehensive guidance on effective model risk management in banking, emphasizing the critical roles of model development, implementation, use, and validation, as well as strong governance and controls.  \n- The course discusses the significance of models in banking for decision-making and the management of model risk due to potential inaccuracies or misuse.  \n- It outlines a framework for robust model development, implementation, and use, highlighting the importance of clear purpose, rigorous testing, and ongoing adjustments based on feedback.  \n- Model validation is detailed as a crucial process to ensure models perform as expected, with validation activities adapted to the complexity and risk of the model.  \n- Governance, policies, and controls are emphasized as essential for an effective model risk management framework, including responsibilities of the board, senior management, and the need for comprehensive documentation and internal audit functions.  \n- It mentions the use of vendor and third-party models, stressing the need for careful selection, validation, and contingency planning.  \n- The course concludes by reinforcing the need for banks to align their practices with the principles provided for managing model risk effectively.  \n#### Key Takeaways: \n[QuIQ Report](https://qucoursify.s3.amazonaws.com/qu-sgmrm/test/key-takeaways.html)  \n#### Reference PDF:  \n[SR 11-7 Document](https://www.federalreserve.gov/supervisionreg/srletters/sr1107a1.pdf)",
+        "SHORT_DESCRIPTION": "Provides comprehensive guidance on effective model risk management in banking.",
+        "DOCUMENT_LINK": "https://www.federalreserve.gov/supervisionreg/srletters/sr1107a1.pdf",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-sgmrm/test",
+        "VIDEOS_PATH": "./data/SGMRM/videos",
+        "SLIDES_PATH": "./data/SGMRM/slides",
+        "TRANSCRIPTS_PATH": "./data/SGMRM/transcripts",
+        "LAST_UPDATED_JSON": "./data/SGMRM/last_updated.json",
+        "LOCAL_PATH": "SGMRM",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [],
+        "RETRIEVER_DB_PATH": "./data/SGMRM/retriever",
+        "HYBRID_DB_PATH": "./data/SGMRM/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-sgmrm/test/questions.json",
+        "CERTIFICATE_PATH": "qu-sgmrm/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-sgmrm/test/slides/1. Introduction.pdf",
+            "qu-sgmrm/test/slides/2. Model Development, Implementation and Use.pdf",
+            "qu-sgmrm/test/slides/3. Model Validation.pdf",
+            "qu-sgmrm/test/slides/4. Governance, Policies, Controls and Conclusion.pdf"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/934981377?h=becd00910a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='1. Introduction'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/934981418?h=632d6f07e6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='2. Model Development, Implementation and Use'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/934981450?h=01a8ff3db1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='3. Model Validation'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/934981484?h=40b1000dd3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='4. Governance, Policies, Controls and Conclusion'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/SGMRM/transcripts/1. Introduction.txt",
+            "./data/SGMRM/transcripts/2. Model Development, Implementation and Use.txt",
+            "./data/SGMRM/transcripts/3. Model Validation.txt",
+            "./data/SGMRM/transcripts/4. Governance, Policies, Controls and Conclusion.txt"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
+        "COURSE_NAMES_SLIDES": [
+            "1. Introduction",
+            "2. Model Development, Implementation and Use",
+            "3. Model Validation",
+            "4. Governance, Policies, Controls and Conclusion"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "1. Introduction",
+            "2. Model Development, Implementation and Use",
+            "3. Model Validation",
+            "4. Governance, Policies, Controls and Conclusion"
+        ]
+    },
+    "GENPRO": {
+        "APP_CODE": "GENPRO",
+        "APP_NAME": "AI Risk Management Framework: Gen AI profile",
+        "APP_IMAGE": "qu-genpro/course-images/course-image.jpg",
+        "HOME_PAGE_INTRODUCTION": "The course provides a framework for managing risks associated with Generative Artificial Intelligence (GAI). This initial public draft aims to guide organizations in incorporating trustworthy practices into the design, development, and deployment of GAI systems.  \nKey Points:  \n- Identifies 12 unique or exacerbated risks of GAI.  \n- Provides actions for organizations to manage these risks.  \n- Emphasizes the importance of transparency and accountability.  \n- Encourages feedback on glossary terms, risk categorization, and action classification.  \n- Aligns with President Biden's Executive Order on trustworthy AI.  \n- This publication is available for public review and comments until June 2, 2024.  \n#### Key Takeaways: \n[QuIQ Report](https://qucoursify.s3.amazonaws.com/qu-genpro/test/key-takeaways.html)  \n#### Reference PDF:  \n[NIST GenAI Profile Document](https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf)",
+        "SHORT_DESCRIPTION": "The course provides a framework for managing risks associated with Generative Artificial Intelligence (GAI).",
+        "DOCUMENT_LINK": "https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-genpro/test",
+        "VIDEOS_PATH": "./data/GENPRO/videos",
+        "SLIDES_PATH": "./data/GENPRO/slides",
+        "TRANSCRIPTS_PATH": "./data/GENPRO/transcripts",
+        "LAST_UPDATED_JSON": "./data/GENPRO/last_updated.json",
+        "LOCAL_PATH": "GENPRO",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [
+            "What are some suggested actions for designing organizational AI risk management policies?",
+            "What do impact assessments help in understanding?",
+            "What questions can organizations document related to AI risk tolerance decisions?"
+        ],
+        "RETRIEVER_DB_PATH": "./data/GENPRO/retriever",
+        "HYBRID_DB_PATH": "./data/GENPRO/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-genpro/test/questions.json",
+        "CERTIFICATE_PATH": "qu-genpro/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-genpro/test/slides/1. Introduction.pdf",
+            "qu-genpro/test/slides/2. Overview of Risks Unique to or Exacerbated by GAI.pdf",
+            "qu-genpro/test/slides/3.1 Actions to Manage GAI Risks - Introduction and GOVERN.pdf",
+            "qu-genpro/test/slides/3.2 Actions to Manage GAI Risks - MAP.pdf",
+            "qu-genpro/test/slides/3.3 Actions to Manage GAI Risks - MEASURE.pdf",
+            "qu-genpro/test/slides/3.4 Actions to Manage GAI Risks - MANAGE.pdf",
+            "qu-genpro/test/slides/Appendix.pdf"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/943272831?h=a2de59debb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='1. Introduction'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/943275254?h=0c068fa30d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='2. Overview of Risks Unique to or Exacerbated by GAI'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/943275433?h=82e801352b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='3.1 Actions to Manage GAI Risks - Introduction and GOVERN'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/943275586?h=bee1488ec2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='3.2 Actions to Manage GAI Risks - MAP'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/943275716?h=db33c133d5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='3.3 Actions to Manage GAI Risks - MEASURE'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/943275852?h=dcbb3a24c0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='3.4 Actions to Manage GAI Risks - MANAGE'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/943275975?h=591603aa89&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='Appendix'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/GENPRO/transcripts/transcript_1. Introduction.md",
+            "./data/GENPRO/transcripts/transcript_2. Overview of Risks Unique to or Exacerbated by GAI.md",
+            "./data/GENPRO/transcripts/transcript_3.1 Actions to Manage GAI Risks - Introduction and GOVERN.md",
+            "./data/GENPRO/transcripts/transcript_3.2 Actions to Manage GAI Risks - MAP.md",
+            "./data/GENPRO/transcripts/transcript_3.3 Actions to Manage GAI Risks - MEASURE.md",
+            "./data/GENPRO/transcripts/transcript_3.4 Actions to Manage GAI Risks - MANAGE.md",
+            "./data/GENPRO/transcripts/transcript_Appendix.md"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
+        "COURSE_NAMES_SLIDES": [
+            "1. Introduction",
+            "2. Overview of Risks Unique to or Exacerbated by GAI",
+            "3.1 Actions to Manage GAI Risks - Introduction and GOVERN",
+            "3.2 Actions to Manage GAI Risks - MAP",
+            "3.3 Actions to Manage GAI Risks - MEASURE",
+            "3.4 Actions to Manage GAI Risks - MANAGE",
+            "Appendix"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "1. Introduction",
+            "2. Overview of Risks Unique to or Exacerbated by GAI",
+            "3.1 Actions to Manage GAI Risks - Introduction and GOVERN",
+            "3.2 Actions to Manage GAI Risks - MAP",
+            "3.3 Actions to Manage GAI Risks - MEASURE",
+            "3.4 Actions to Manage GAI Risks - MANAGE",
+            "Appendix"
+        ]
+    },
+    "SCFACONLP": {
+        "APP_CODE": "SCFACONLP",
+        "APP_NAME": "Advanced Natural Language Processing (NLP)",
+        "APP_IMAGE": "qu-scfaconlp/course-images/Advanced Natural Language Processing NLP.png",
+        "HOME_PAGE_INTRODUCTION": "### Introduction  \n- This course covers advanced topics in Natural Language Processing (NLP) and its applications.  \n- The course includes an overview of NLP, deep learning, large language models, and transformers.  \n- You can use the QUBot to ask questions related to the course content.  \n- Complete the assessment to test your understanding and receive a certificate of completion.  \n- For any queries or feedback, please use the feedback form.  \n- Happy learning!",
+        "SHORT_DESCRIPTION": "This course covers advanced topics in Natural Language Processing (NLP) and its applications.",
+        "DOCUMENT_LINK": "",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-scfaconlp/test",
+        "VIDEOS_PATH": "./data/SCFACONLP/videos",
+        "SLIDES_PATH": "./data/SCFACONLP/slides",
+        "TRANSCRIPTS_PATH": "./data/SCFACONLP/transcripts",
+        "LAST_UPDATED_JSON": "./data/SCFACONLP/last_updated.json",
+        "LOCAL_PATH": "SCFACONLP",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [],
+        "RETRIEVER_DB_PATH": "./data/SCFACONLP/retriever",
+        "HYBRID_DB_PATH": "./data/SCFACONLP/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-scfaconlp/test/questions.json",
+        "CERTIFICATE_PATH": "qu-scfaconlp/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-scfaconlp/test/slides/Advanced Natural Language Processing NLP.pdf"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/964672928?h=13f9940e6c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='Advanced Natural Language Processing NLP'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/SCFACONLP/transcripts/transcript_Advanced Natural Language Processing NLP.md"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
+        "COURSE_NAMES_SLIDES": [
+            "Advanced Natural Language Processing NLP"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "Advanced Natural Language Processing NLP"
+        ]
+    },
+    "PRMST": {
+        "APP_CODE": "PRMST",
+        "APP_NAME": "Risk Management Practices - Stress Testing",
+        "APP_IMAGE": "qu-prmst/course-images/course-image.jpg",
+        "HOME_PAGE_INTRODUCTION": "### Introduction  \nThis comprehensive chapter on **Risk Management Practices - Stress Testing** delves into the vital role and evolution of stress testing as a superior approach to traditional risk measures like Value at Risk (VaR). We explore a variety of stress testing techniques\u00e2\u20ac\u201dhistorical, hypothetical, and algorithmic\u00e2\u20ac\u201dto better understand potential extreme losses and enhance financial stability.  \n- **Extensive Coverage**: Examines stress testing across different asset classes and geographies, focusing on key historical and hypothetical scenarios.  \n- **Regulatory Insights**: Discusses the regulatory importance of stress testing and its integration into risk management frameworks mandated by authorities like the Basel Committee.  \n- **Methodological Depth**: Provides detailed methodologies used by major banks for conducting stress tests, including Citigroup and JP Morgan.  \n- **Practical Application**: Offers strategies for integrating stress tests into existing risk frameworks to improve decision-making and capital management.  \n- **Advanced Techniques**: Explores sophisticated algorithmic approaches like Monte Carlo simulations and Extreme-Value Theory to estimate potential losses.  \n#### Key Takeaways: \n[QuIQ Report](https://qucoursify.s3.amazonaws.com/qu-prmst/test/key-takeaways.html)  \n#### Reference PDF:  \n[Risk Management Practices PDF](https://drive.google.com/file/d/1EqMenh2VK5wyiBCLkPOhq5map9oJMAN-/view?usp=sharing)",
+        "SHORT_DESCRIPTION": "This chapter delves into the vital role and evolution of stress testing as a superior approach to traditional risk measures like Value at Risk (VaR).",
+        "DOCUMENT_LINK": "https://drive.google.com/file/d/1EqMenh2VK5wyiBCLkPOhq5map9oJMAN-/view?usp=sharing",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-prmst/test",
+        "VIDEOS_PATH": "./data/PRMST/videos",
+        "SLIDES_PATH": "./data/PRMST/slides",
+        "TRANSCRIPTS_PATH": "./data/PRMST/transcripts",
+        "LAST_UPDATED_JSON": "./data/PRMST/last_updated.json",
+        "LOCAL_PATH": "PRMST",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [],
+        "RETRIEVER_DB_PATH": "./data/PRMST/retriever",
+        "HYBRID_DB_PATH": "./data/PRMST/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-prmst/test/questions.json",
+        "CERTIFICATE_PATH": "qu-prmst/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-prmst/test/pdfs/1 Introduction.pdf",
+            "qu-prmst/test/pdfs/2 Stress Testing in Practice.pdf",
+            "qu-prmst/test/pdfs/3 Historical Scenarios.pdf",
+            "qu-prmst/test/pdfs/4 Algorithmic Approaches to Stress Testing.pdf",
+            "qu-prmst/test/pdfs/5 Summary and Conclusions.pdf"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949477617?h=3f81a7a9e0&badge=0&autopause=0&player_id=0&app_id=58479/embed' allow='autoplay; fullscreen; picture-in-picture' allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949477634?h=19a6a0f824&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='2 Stress Testing in Practice'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949477654?h=dfb2214d36&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='3 Historical Scenarios'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949477672?h=a0c09068c8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='4 Algorithmic Approaches to Stress Testing'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949477680?h=d85f1b55be&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='5 Summary and Conclusions'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/PRMST/transcripts/transcript_1 Introduction.md",
+            "./data/PRMST/transcripts/transcript_2 Stress Testing in Practice.md",
+            "./data/PRMST/transcripts/transcript_3 Historical Scenarios.md",
+            "./data/PRMST/transcripts/transcript_4 Algorithmic Approaches to Stress Testing.md",
+            "./data/PRMST/transcripts/transcript_5 Summary and Conclusions.md"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
+        "COURSE_NAMES_SLIDES": [
+            "1. Introduction",
+            "2. Stress Testing in Practice",
+            "3. Historical Scenarios",
+            "4. Algorithmic Approaches to Stress Testing",
+            "5. Summary and Conclusions"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "1. Introduction",
+            "2. Stress Testing in Practice",
+            "3. Historical Scenarios",
+            "4. Algorithmic Approaches to Stress Testing",
+            "5. Summary and Conclusions"
+        ]
+    },
+    "GSCRRMF": {
+        "APP_CODE": "GSCRRMF",
+        "APP_NAME": "GARP's SCR Risk-Management Fundamentals Course",
+        "APP_IMAGE": "qu-gscrrmf/course-images/course-image.jpg",
+        "HOME_PAGE_INTRODUCTION": "### Introduction  \nThis course on SCR Risk-Management Fundamentals offers an in-depth exploration of essential risk management techniques within the financial sector. It is designed to equip finance professionals with the tools and knowledge to effectively assess, manage, and mitigate various financial risks.    \n- Comprehensive Coverage: Understand the four main risk types\u00e2\u20ac\u201dcredit, market, liquidity, and operational\u00e2\u20ac\u201dand their impact on financial stability.    \n- Advanced Methodologies: Dive into sophisticated risk assessment methods including stress testing, scenario analysis, and the use of financial models.    \n- Real-World Applications: Learn through case studies and real-world examples to apply risk management strategies effectively in your work environment.    \n- Regulatory Frameworks: Explore the influence of global regulatory frameworks like Basel III on risk management practices.    \n- Tools and Techniques: Gain practical skills in using advanced tools for risk analysis, including Value at Risk (VaR) and stress testing models.  \n#### Key Takeaways: \n[QuIQ Report](https://qucoursify.s3.amazonaws.com/qu-gscrrmf/test/key-takeaways.html)  \n#### Reference PDF:  \n[SCR Risk-Management Fundamentals](https://www.garp.org/hubfs/Website/SCR/PDF/scr-risk-mgmt-fundamentals-112222.pdf)",
+        "SHORT_DESCRIPTION": "This course offers an in-depth exploration of essential risk management techniques within the financial sector.",
+        "DOCUMENT_LINK": "https://www.garp.org/hubfs/Website/SCR/PDF/scr-risk-mgmt-fundamentals-112222.pdf",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-gscrrmf/test",
+        "VIDEOS_PATH": "./data/GSCRRMF/videos",
+        "SLIDES_PATH": "./data/GSCRRMF/slides",
+        "TRANSCRIPTS_PATH": "./data/GSCRRMF/transcripts",
+        "LAST_UPDATED_JSON": "./data/GSCRRMF/last_updated.json",
+        "LOCAL_PATH": "GSCRRMF",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [],
+        "RETRIEVER_DB_PATH": "./data/GSCRRMF/retriever",
+        "HYBRID_DB_PATH": "./data/GSCRRMF/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-gscrrmf/test/questions.json",
+        "CERTIFICATE_PATH": "qu-gscrrmf/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-gscrrmf/test/pdfs/1 Introduction.pdf",
+            "qu-gscrrmf/test/pdfs/2 Credit Risk.pdf",
+            "qu-gscrrmf/test/pdfs/3 Market Risk.pdf",
+            "qu-gscrrmf/test/pdfs/4 Liquidity Risk.pdf",
+            "qu-gscrrmf/test/pdfs/5 Operational Risk.pdf",
+            "qu-gscrrmf/test/pdfs/6 Enterprisewide Risk Management.pdf"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949662473?h=f4f92faf47&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='1 Introduction'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949662497?h=cf4161f033&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='2 Credit Risk'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949662534?h=92c2678851&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='3 Market Risk'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949662557?h=eb61d743d1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='4 Liquidity Risk'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949662572?h=2834e38289&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='5 Operational Risk'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>",
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/949662595?h=d00d347a8e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='6 Enterprisewide Risk Management'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/GSCRRMF/transcripts/1 Introduction.md",
+            "./data/GSCRRMF/transcripts/2 Credit Risk.md",
+            "./data/GSCRRMF/transcripts/3 Market Risk.md",
+            "./data/GSCRRMF/transcripts/4 Liquidity Risk.md",
+            "./data/GSCRRMF/transcripts/5 Operational Risk.md",
+            "./data/GSCRRMF/transcripts/6 Enterprisewide Risk Management.md"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
+        "COURSE_NAMES_SLIDES": [
+            "1 Introduction",
+            "2 Credit Risk",
+            "3 Market Risk",
+            "4 Liquidity Risk",
+            "5 Operational Risk",
+            "6 Enterprisewide Risk Management"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "1 Introduction",
+            "2 Credit Risk",
+            "3 Market Risk",
+            "4 Liquidity Risk",
+            "5 Operational Risk",
+            "6 Enterprisewide Risk Management"
+        ]
+    },
+    "SROBOM": {
+        "APP_CODE": "SROBOM",
+        "APP_NAME": "Advanced Software Development for Robotics - Mechatronics",
+        "APP_IMAGE": "qu-srobom/course-images/course-image.jpg",
+        "HOME_PAGE_INTRODUCTION": "### Introduction  \nThe MechaTronics module on Advanced Software Development for Robotics covers the principles of scalable software architecture, types and management of architecture, and the integration of AI and machine learning in industrial applications. It also delves into computer engineering, emphasizing the interplay between hardware and software, and the evolving field of mechatronics.  \n- Focuses on scalable software architecture, including types like monolith and distributed architectures.  \n- Discusses the importance of documenting software architecture and fundamental laws like trade-offs and prioritizing the 'why.'  \n- Highlights hexagonal architecture for creating loosely coupled components to enhance testability and exchangeability.  \n- Covers the role of computer engineering and mechatronics in robotics and automation.  \n- Explores the integration of AI and machine learning to solve industrial challenges and drive innovation.",
+        "SHORT_DESCRIPTION": "The MechaTronics module on Advanced Software Development for Robotics covers the principles of scalable software architecture, types and management of architecture, and the integration of AI and machine learning in industrial applications.",
+        "DOCUMENT_LINK": "",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-srobom/test",
+        "VIDEOS_PATH": "./data/SROBOM/videos",
+        "SLIDES_PATH": "./data/SROBOM/slides",
+        "TRANSCRIPTS_PATH": "./data/SROBOM/transcripts",
+        "LAST_UPDATED_JSON": "./data/SROBOM/last_updated.json",
+        "LOCAL_PATH": "SROBOM",
+        "CHAT_BOT_STARTER_FOLLOW_UP_QUESTIONS": [],
+        "RETRIEVER_DB_PATH": "./data/SROBOM/retriever",
+        "HYBRID_DB_PATH": "./data/SROBOM/retriever/hybrid_db",
+        "CHATBOT_QUESTIONS_LIMIT": 5,
+        "QUESTIONS_FILE": "qu-srobom/test/questions.json",
+        "CERTIFICATE_PATH": "qu-srobom/test/QU-Certificate.jpg",
+        "QUIZ_TOTAL_QUES": 2,
+        "QUIZ_RESULT_TABLE_NAME": "quiz_results",
+        "USER_QUIZ_INTERACTION_TABLE_NAME": "user_quiz_interaction",
+        "SLIDES_LINKS": [
+            "qu-srobom/test/pdfs/Advanced Software Development for Robotics.pdf"
+        ],
+        "VIDEOS_LINKS": [
+            "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/964672636?h=63d441f100&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' frameborder='0' allow='autoplay; fullscreen; picture-in-picture; clipboard-write' style='position:absolute;top:0;left:0;width:100%;height:100%;' title='Advanced Software Development for Robotics'></iframe></div><script src='https://player.vimeo.com/api/player.js'></script>"
+        ],
+        "TRANSCRIPTS_FILES": [
+            "./data/SROBOM/transcripts/Advanced Software Development for Robotics.md"
+        ],
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
+        "COURSE_NAMES_SLIDES": [
+            "Advanced Software Development for Robotics"
+        ],
+        "COURSE_NAMES_VIDEOS": [
+            "Advanced Software Development for Robotics"
+        ]
+    },
+    "COLCPL": {
+        "APP_NAME": "Colorado Law Concerning Consumer Protections In Interactions With AI Systems",
+        "APP_CODE": "COLCPL",
+        "S3_BUCKET_NAME": "qucoursify",
+        "S3_BUCKET_PREFIX": "qu-colcpl/test",
+        "LOCAL_PATH": "COLCPL",
+        "HOME_PAGE_INTRODUCTION": "### Coming soon... \nThis course will cover Colorado Law Concerning Consumer Protections In Interactions With AI Systems.  \nStay tuned for more updates!",
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link"
+    },
+    "CALLAW": {
+        "APP_NAME": "California AI Transparency ACT",
+        "APP_CODE": "CALLAW",
+        "S3_BUCKET_NAME": "qucoursify",
+        "LOCAL_PATH": "CALLAW",
+        "S3_BUCKET_PREFIX": "qu-callaw/test",
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
+        "HOME_PAGE_INTRODUCTION": "### Coming soon... \nThis course will cover California AI Transparency ACT.  \nStay tuned for more updates!"
+    },
+    "EUAIA": {
+        "APP_NAME": "EU AI Act",
+        "APP_CODE": "EUAIA",
+        "S3_BUCKET_NAME": "qucoursify",
+        "LOCAL_PATH": "EUAIA",
+        "S3_BUCKET_PREFIX": "qu-euaia/test",
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
+        "HOME_PAGE_INTRODUCTION": "### Coming soon... \nThis course will cover EU AI Act.  \nStay tuned for more updates!"
+    }
+}
