@@ -157,7 +157,7 @@ def get_course_outline(profile_id, job_id, feedback=''):
     
     # if feedback is provided, add it to the prompt
     if feedback and feedback!="":
-        course_outline_prompt += "The user has provided some feedback which needs to be incorporated into the course outline. The feedback is as follows: {FEEDBACK}."
+        course_outline_prompt += f"The user has provided some feedback which needs to be incorporated into the course outline. The feedback is as follows: {feedback}."
 
     prompt = PromptTemplate(
             template=course_outline_prompt,
