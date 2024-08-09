@@ -826,7 +826,12 @@
         "S3_BUCKET_PREFIX": "qu-colcpl/test",
         "LOCAL_PATH": "COLCPL",
         "HOME_PAGE_INTRODUCTION": "### Coming soon... \nThis course will cover Colorado Law Concerning Consumer Protections In Interactions With AI Systems.  \nStay tuned for more updates!",
-        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link"
+        "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
+        "COURSE_NAMES_SLIDES": [],
+        "COURSE_NAMES_VIDEOS": [],
+        "VIDEOS_LINKS": [],
+        "SLIDES_LINKS": [],
+        "TRANSCRIPTS_FILES": []
     },
     "CALLAW": {
         "APP_NAME": "California AI Transparency ACT",
@@ -835,7 +840,12 @@
         "LOCAL_PATH": "CALLAW",
         "S3_BUCKET_PREFIX": "qu-callaw/test",
         "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
-        "HOME_PAGE_INTRODUCTION": "### Coming soon... \nThis course will cover California AI Transparency ACT.  \nStay tuned for more updates!"
+        "HOME_PAGE_INTRODUCTION": "### Coming soon... \nThis course will cover California AI Transparency ACT.  \nStay tuned for more updates!",
+        "COURSE_NAMES_SLIDES": [],
+        "COURSE_NAMES_VIDEOS": [],
+        "VIDEOS_LINKS": [],
+        "SLIDES_LINKS": [],
+        "TRANSCRIPTS_FILES": []
     },
     "EUAIA": {
         "APP_NAME": "EU AI Act",
@@ -844,6 +854,11 @@
         "LOCAL_PATH": "EUAIA",
         "S3_BUCKET_PREFIX": "qu-euaia/test",
         "CONTACT_FORM_LINK": "https://docs.google.com/forms/d/e/1FAIpQLSfWkOK-in_bMMoHSZfcIvAeO58PAH9wrDqcxnJABHaxiDqhSA/viewform?usp=sf_link",
-        "HOME_PAGE_INTRODUCTION": "### Coming soon... \nThis course will cover EU AI Act.  \nStay tuned for more updates!"
+        "HOME_PAGE_INTRODUCTION": "### Coming soon... \nThis course will cover EU AI Act.  \nStay tuned for more updates!",
+        "COURSE_NAMES_SLIDES": [],
+        "COURSE_NAMES_VIDEOS": [],
+        "VIDEOS_LINKS": [],
+        "SLIDES_LINKS": [],
+        "TRANSCRIPTS_FILES": []
     }
 }
